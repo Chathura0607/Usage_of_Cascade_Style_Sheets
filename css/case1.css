@@ -1,0 +1,111 @@
+body {
+  margin: 0;
+}
+
+.rectangle {
+  width: 50%;
+  height: 50vh;
+}
+
+.r_red {
+  background-color: red;
+  position: relative;
+}
+
+.r_green {
+  background-color: green;
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+
+.r_yellow {
+  background-color: yellow;
+  position: fixed;
+}
+
+.r_rose {
+  background-color: #f661d0;
+  position: absolute;
+  right: 0;
+  bottom: 0;
+}
+
+.square_white {
+  width: 25vh;
+  height: 25vh;
+  background-color: white;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.c_red {
+  width: 15vh;
+  height: 15vh;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  background-color: red;
+  border-radius: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.c_middle {
+  width: 25vh;
+  height: 25vh;
+  background-color: white;
+  border-radius: 50%;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.m_square {
+  width: 10vh;
+  height: 10vh;
+  position: absolute;
+  background-color: red;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.corner_circle {
+  width: 15vh;
+  height: 15vh;
+  background-color: white;
+  position: absolute;
+}
+
+.c_top_left_corner {
+  border-bottom-right-radius: 100%;
+}
+
+.c_top_right_corner {
+  border-bottom-left-radius: 100%;
+
+  top: 0;
+  right: 0;
+}
+
+.c_bottom_left_corner {
+  border-top-right-radius: 100%;
+  bottom: 0;
+  left: 0;
+}
+
+.c_bottom_right_corner {
+  border-top-left-radius: 100%;
+  bottom: 0;
+  right: 0;
+}
+
+.middle_circle {
+  width: 10vh;
+  height: 10vh;
+  background-color: white;
+  position: absolute;
+}
