@@ -1,5 +1,6 @@
 body {
   margin: 0;
+  font-family: "Roboto", sans-serif;
 }
 
 header {
@@ -15,12 +16,16 @@ header img {
   max-height: 50px;
 }
 
-.nav_links {
+.nav_links ul {
+  list-style: none;
   display: flex;
-  gap: 20px;
 }
 
-.nav_links a {
+.nav_links ul li {
+  margin: 0 20px;
+}
+
+.nav_links ul li a {
   text-decoration: none;
   color: black;
   font-weight: 400;
